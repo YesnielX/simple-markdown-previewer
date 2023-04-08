@@ -1,0 +1,109 @@
+.hero.has-background-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(39, 174, 96, 1) 0%,
+    rgba(22, 139, 189, 1) 100%
+  );
+}
+
+.has-fixed-size {
+  resize: none;
+}
+
+.label,
+.textarea,
+.button {
+  border-radius: 6px;
+}
+
+.content.box {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.content.box pre {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  border-radius: 20px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 0.8rem 2.5rem;
+  width: 140px;
+}
+
+.buttons .button:hover {
+  transform: translateY(-2px);
+}
+
+.buttons .button.is-primary {
+  background-color: #27ae60;
+}
+
+.buttons .button.is-primary:hover {
+  background-color: #219653;
+}
+
+.buttons .button.is-danger {
+  background-color: #eb5757;
+}
+
+.buttons .button.is-danger:hover {
+  background-color: #c0392b;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .label {
+    font-size: 1.8rem;
+  }
+
+  .textarea {
+    font-size: 1.4rem;
+  }
+
+  .buttons .button {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.5rem;
+    width: 120px;
+  }
+}
+
+.footer {
+  color: white;
+  font-size: 0.9rem;
+  background: transparent;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #27ae60;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}
